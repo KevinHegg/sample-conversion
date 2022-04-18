@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas/transcription.json",
+  "type": "AnnotationPage",
+  "label": "Transcription",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas/transcription-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<font color='navy'>Knock, knock.</font>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "0.0,1.5"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas/transcription-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<font color='blueviolet'>Who is at my door?</font>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "1.5,3.5"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas/transcription-annotation-2.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "<font color='navy'>It is I, the big bad wolf. Open up or I'll huff and I'll puff and <em>I'll blow your house down.</em></font>",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "4.0,15.0"
+        }
+      }
+    }
+  ]
+}

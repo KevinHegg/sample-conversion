@@ -8,6 +8,20 @@
         "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas",
         "type": "Canvas",
         "duration": 15,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas/transcription.json",
+            "label": "Transcription"
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/canvas/speaker.json",
+            "label": "Speaker"
+          }
+        ],
         "items": [
           {
             "id": "https://KevinHegg.github.io/sample-conversion/simple-srt-to-tsv-conversion-example/canvas-1/paintings",
