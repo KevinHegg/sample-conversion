@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Sample SRT to AudiAnnotate Conversion sans Media" ] },
+    "summary": { "en": [ "This project demonstrates how code can be used to automatically convert an SRT file to an AudiAnnotate-ready TSV file." ] },
+    "items": [
+    ]
+}
